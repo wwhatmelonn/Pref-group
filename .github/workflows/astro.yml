@@ -69,7 +69,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
       - name: Setup Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         id: pages
